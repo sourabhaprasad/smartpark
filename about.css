@@ -1,0 +1,55 @@
+@import url("header-footer.css");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #C1A5A9;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.left{
+    margin: 30px;
+    text-align: center;
+    background-color: #d7c8cf;
+    padding: 20px;
+}
+
+.about h2{
+    margin: 20px 20px 40px 20px;
+}
+
+.features{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px 30px 4px 40px;
+    background-color: #C1A5A9;
+    width: 30%;
+    padding: 10px;
+
+}
+
+.left .features-flex {
+    display: flex;
+    align-items: center;
+}
+
+.features-left, .features-right{
+    flex: 1;
+}
+
+.push-right{
+    margin-left: 50%;
+}
+
+.features-para{
+    margin: 5px;
+}

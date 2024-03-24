@@ -1,0 +1,123 @@
+  /*
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Hedvig+Letters+Serif:opsz@12..24&family=Indie+Flower&family=Love+Ya+Like+A+Sister&family=Mali&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Hedvig+Letters+Serif:opsz@12..24&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Happy+Monkey&family=Hedvig+Letters+Serif:opsz@12..24&family=Indie+Flower&family=Love+Ya+Like+A+Sister&family=Mali&family=Montserrat+Alternates&family=Space+Mono&display=swap');
+
+*{
+  font-family: 'Happy Monkey', sans-serif;
+  letter-spacing: 2px;
+  font-family: "Montserrat";
+}
+*/
+
+  header {
+      background-color: #1D1A31;
+      display: flex;
+      align-items: center;
+      color: white;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 32px;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+      font-size: large;
+  }
+
+  menu li {
+      font-weight: bold;
+      opacity: 0.8;
+      cursor: pointer;
+      padding: 10px 16px;
+      transition: transform 0.2s;
+      list-style-type: none;
+  }
+
+  menu li:hover {
+      opacity: 1;
+      background-color: #a5969d;
+      color: #1D1A31;
+      border-radius: 14px;
+      transform: scale(1.1);
+      text-shadow: 2px 2px 3px #1D1A31;
+  }
+
+
+  header h1 {
+      font-size: 24px;
+  }
+
+  footer {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(19, 18, 36);
+      color: white;
+  }
+
+  .grid-item {
+      padding: 2px 60px;
+      align-items: center;
+  }
+
+  .grid-item li{
+    list-style-type: none;
+  }
+
+  .social-icon li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 4px; 
+  }
+
+  .grid-item h1,
+  .grid-item li {
+      margin: 8px;
+  }
+
+  form{
+    display: inline-block;
+  }
+
+  input{
+    padding: 4px 8px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .form-group {
+    margin: 10px 0;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .form-group button {
+    background-color: #C1A5A9;
+    color: #fff;
+    border: none;
+    margin-left: 5px ;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: #e8cacf;
+    color: black;
+  }

@@ -1,0 +1,110 @@
+@import url("header-footer.css");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #C1A5A9;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 10px;
+    background-color: #E6DDE1;
+    margin: 60px;
+}
+
+.left{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C1A5A9;
+    padding: 60px;
+}
+
+.features{
+    width: 70%;
+}
+
+.right{
+    background-color: #C1A5A9;
+    margin: 20px 30px 20px 20px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.right{
+    background-color: #C1A5A9;
+    margin: 20px 30px 20px 20px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    background-color: #E6DDE1;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+.button-container button {
+    padding: 10px 20px; 
+    margin: 2px 60px;
+    border: none;
+    background-color: #C1A5A9;
+    border-radius: 8px;
+}
+
+textarea {
+    grid-column: span 2; 
+    margin: 8px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
+
+textarea, input {
+    grid-column: span 2; 
+    margin: 8px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    resize: vertical; 
+    padding: 4px;
+}
+
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 2px 80px;
+    border: none;
+    background-color: #C1A5A9;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #A3858D; /* Change to a darker shade when hovered */
+    cursor: pointer;
+}

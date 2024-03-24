@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | SmartPark</title>
+    <link href="about.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav>
+        <header>
+            <a href="index.html">
+                <h1>SmartPark</h1>                
+            </a>
+            <div>
+                <menu>
+                    <li> <a href="index.html">Home</a>
+                    </li>
+                    <li> <a href="about.html">About</a>
+                    </li>
+                    <li> <a href="contact.html">Contact</a>
+                    </li>
+                </menu>
+            </div>
+        </header>
+    </nav>
+    <section class="about">
+        <section class="left">
+            <h2>Why use SmartPark?</h2>
+            <section class="features">
+                <h3 class="features-heading">
+                    Customizable
+                </h3>
+                <section class="features-flex">
+                    <div class="features-left">
+                        <img class="features-img" width="90" height="90"
+                            src="https://img.icons8.com/clouds/100/sorting-options.png" alt="sorting-options" />
+                    </div>
+                    <div class="features-right">
+                        <p class="features-para">
+                            Features can be quickly and easily added or tailored to specific needs.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <section class="features push-right">
+                <h3 class="features-heading">
+                    Easy to Use
+                </h3>
+                <section class="features-flex">
+                    <div class="features-left">
+                        <img class="features-img" width="64" height="64"
+                    src="https://img.icons8.com/external-bearicons-outline-color-bearicons/64/external-Easy-to-Use-miscellany-texts-and-badges-bearicons-outline-color-bearicons.png"
+                    alt="external-Easy-to-Use-miscellany-texts-and-badges-bearicons-outline-color-bearicons" />
+                    </div>
+                    <div class="features-right">
+                        <p class="features-para">
+                            Manage the entire parking area using your handheld device. No training required.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <section class="features">
+                <h3 class="features-heading">
+                    Live Trends & Reports
+                </h3>
+                <section class="features-flex">
+                    <div class="features-left">
+                        <img class="features-img" width="90" height="90"
+                    src="https://img.icons8.com/clouds/100/business-report.png" alt="business-report" />
+                    </div>
+                    <div class="features-right">
+                        <p class="features-para">
+                            Built-in statistical tools help you use the data captured for further decision making.
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class="right">
+            <video id="myVideo" width="600" height="600" autoplay onended="restartVideo()">
+                <source src="mobile_final.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            
+              <script>
+                function restartVideo() {
+                  var video = document.getElementById("myVideo");
+                  video.currentTime = 0; 
+                  video.play(); 
+                }
+              </script>
+        </section>
+    </section>
+    <nav>
+      <footer>
+        <section class="grid-item">
+          <div>
+            <h1>Download</h1>
+            <ul>
+              <li>Mobile App</li>
+              <li>Brochure</li>
+            </ul>
+            <br>
+          </div>
+          <div>
+            <h1>Services</h1>
+            <ul>
+              <li>Learn More</li>
+              <li>Manage Account</li>
+            </ul>
+            <br>
+          </div>
+        </section>
+        <section class="grid-item">
+          <div>
+            <h1>Company</h1>
+            <ul>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+            <br>
+          </div>
+          <div>
+            <h1>Products</h1>
+            <ul>
+              <li>Web</li>
+              <li>App</li>
+            </ul>
+          </div>
+        </section>
+        <section class="grid-item social-icon">
+          <h1>Get In Touch</h1>
+          <li><a href="mailto:sourabhaprasad04@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/apple-mail.png" alt="apple-mail"/>
+          </a></li>
+          <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+          </a></li>
+          <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" alt="twitter"/></a></li>
+          <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" alt="facebook-new"/></a></li>
+          <br>
+          <div class="container">
+            <h1>Subscribe to Our Newsletter</h1>
+            <form id="subscribe-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="email"><label>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required>
+              </div>
+              <div class="form-group">
+                <button type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </footer>
+    </nav>
+</body>
+
+</html>
